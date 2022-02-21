@@ -7,6 +7,7 @@ namespace TicTocToeGame
 {
     public class TicTocGame
     {
+       
         public void StartGame()
         {
             char[] board = new char[10];
@@ -17,9 +18,5 @@ namespace TicTocToeGame
                 }
             }
         }
-        public const char X = 'X';
-        public const char O = 'O';
-       
-
     }
 }
